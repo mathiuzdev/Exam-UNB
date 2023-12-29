@@ -56,10 +56,20 @@ class UserController extends Controller
      */
     public function update(UpdateUserRequest $request, User $user)
     {
-        
-        $user->update($request->all());
+        $data = $request->validated(); 
+    
+    
+        if ($request->filled('password')) {
+            $data['password'] = bcrypt($data['password']);
+        } else {
+            unset($data['password']);
+        }
+    
+        $user->update($data);
+    
         return redirect()->route('users.index');
     }
+
 
     /**
      * Remove the specified resource from storage.
