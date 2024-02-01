@@ -76,6 +76,8 @@ Por último para levantar el servidor escribir estos últimos dos comandos
   php artisan serve
 ```
 
+Y este comando solo hay que ponerlo una única vez para que se compilen los estilos
+
 ```bash
   npm run dev
 ```
