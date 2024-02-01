@@ -56,7 +56,7 @@ Una vez teniendo el archivo ".env" habrá que lanzar este comando en la terminal
 
 ## Asociar base de datos
 
-Cambiar las variables de entorno haciendo referencia a nuestra base de datos.
+Cambiar las variables de entorno en el archivo ".env" haciendo referencia a nuestra base de datos.
 
 ![App Screenshot](https://i.imgur.com/g9aOcCV.png)
 
