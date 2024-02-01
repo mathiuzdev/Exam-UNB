@@ -8,7 +8,7 @@
 
 - Tener instalado Composer version 2.6.6 https://getcomposer.org/download/
 - Tener instalado Node https://nodejs.org/en
-- Tener instalado y en funcionamiento Mysql (Xampp, HeidiSQL, etc)
+- Tener instalado y en funcionamiento Mysql 
 
 
 
