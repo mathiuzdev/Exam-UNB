@@ -31,9 +31,11 @@ Ubicarse en el directorio que se encuentre el proyecto
 Instalar dependencias
 
 ```bash
-  composer install npm install
+  composer install 
 ```
-
+```bash
+  npm install
+```
 
 
 
